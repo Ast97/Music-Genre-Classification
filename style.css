@@ -1,0 +1,165 @@
+.error {color: #FF0000;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;background: #B993D6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+.bar,h1,button {font-family: "Montserrat", sans-serif}
+
+input[type=text],input[type=number],textarea
+{
+width:100%;
+padding: 12px;
+margin:10px 0;
+box-sizing:border-box;
+border:3px solid #ccc;
+border-radius:5px;
+-webkit-transition:0.5s;
+tram=nsition:0.5s;
+outline:none;
+}
+.search
+{
+width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("searchicon.png");
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    text-align:center;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus,input[type=number]:focus,textarea:focus
+{
+border-radius:5px;
+border:3px solid #555;
+}
+
+input[type=submit]
+{
+width:100%;
+padding:15px;
+color:white;
+background-color:#707070;
+margin:10px 0;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-family:28px;
+}
+
+input[type=submit]:hover
+{
+background-color:#383838;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: dimgray;
+    color:white;
+}
+
+.frm
+{
+background:#E8E8E8;
+border-radius:7px;
+padding:20px;
+margin-left: 70px;
+margin-right: 70px;
+margin-bottom: 50px;
+border: solid silver 3px;
+}
+body {
+   margin:0;
+   padding:0;
+
+  }
+table {width:100%;}
+table, th, td {border: none;border-collapse: collapse;}
+th, td {padding: 30px; text-align: left;}
+tr:nth-child(even){ background-color:#E8E8E8;}
+tr:nth-child(odd){ background-color:silver;}
+tr:hover{background-color:darkgray;}
+th{background-color: dimgray; color:white;}
+.box{
+    width: 80%;
+    border-radius: 5%;
+    margin: auto;
+}
+.headblack{
+  position: absolute;
+  margin: auto;
+  top: 0%;
+  padding: 24px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.navi {
+  background-color: black;
+  border: none;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 80px;
+}
+
+section:not(.hero):nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.hero {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    min-height: 68vh;
+    color: #fff;
+    background-image: url('http://besthdwallpaper.co/wp-content/uploads/2018/05/vinyl-free-wallpaper-music-black-background-hd.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.hero .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    background-color: #80a3db;
+}
+
+.hero h1 {
+    font: bold 60px "Open Sans", sans-serif;
+    margin-bottom: 15px;
+}
+
+.hero h3 {
+    font: normal 28px "Open Sans", sans-serif;
+    margin-bottom: 40px;
+}
+
+.hero a.btn {
+    padding: 20px 46px;
+}
